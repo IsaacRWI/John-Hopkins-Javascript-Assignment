@@ -51,7 +51,7 @@
     // to lower case character 'j' afterwards.
     // Look up these methods on Mozilla Developer Network web site if needed.
     // var firstLetter =
-    var firstLetter = names[i][0].toLowerCase;
+    var firstLetter = names[i].charAt(0).toLowerCase();
 
     // STEP 12:
     // Compare the 'firstLetter' retrieved in STEP 11 to lower case
@@ -60,10 +60,10 @@
     // name in the loop.
     if (firstLetter === "j") {
       // byeSpeaker.xxxx
-      byeSpeaker.speak;
+      byeSpeaker.speak(names[i]);
     } else {
       // helloSpeaker.xxxx
-      helloSpeaker.speak;
+      helloSpeaker.speak(names[i]);
     }
   }
 })();
