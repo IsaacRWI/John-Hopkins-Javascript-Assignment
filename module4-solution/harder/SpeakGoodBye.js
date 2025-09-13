@@ -11,7 +11,9 @@
   // See Lecture 52, part 1
   // var byeSpeaker =
   var byeSpeaker = {};
-  byeSpeaker.speak;
+  byeSpeaker.speak =   function speak(name) {
+    console.log(speakWord + " " + name);
+    };
   window.byeSpeaker = byeSpeaker;
 
   // DO NOT attach the speakWord variable to the 'byeSpeaker' object.
