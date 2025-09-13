@@ -58,10 +58,12 @@
     // 'j'. If the same, call byeSpeaker's 'speak' method with the current name
     // in the loop. Otherwise, call helloSpeaker's 'speak' method with the current
     // name in the loop.
-    if (/* fill in condition here */) {
+    if (firstLetter === "j") {
       // byeSpeaker.xxxx
+      byeSpeaker.speak;
     } else {
       // helloSpeaker.xxxx
+      helloSpeaker.speak;
     }
   }
 })();
